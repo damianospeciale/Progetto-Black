@@ -1,0 +1,144 @@
+*
+body {
+    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Jura', sans-serif; */
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    overflow-x: hidden;
+}
+a {
+    color: white;
+}
+a>i {
+    color: white;
+}
+.linea-bianca {
+    height: 1px;
+    width: 100vw;
+    background-color: white;
+}
+
+.img-moon {
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0), rgb(0, 0, 0)),url(/media/moon.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.titolo {
+    color: white;
+    font-size: 60px;
+    margin-left: 50px;
+}
+.titolo-sotto {
+    color: white;
+    margin-left: 70px;
+    font-size: 16px;
+}
+
+.freccia {
+    position: absolute;
+    bottom: 30px;
+    color: #2B9DF4;
+}
+
+header {
+    margin-bottom: 100px;
+}
+.colorp {
+    color: white;
+    font-size: 10px;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+}
+@media (max-width: 990px) {
+    h2 {
+        color: white;
+        font-size: 20px;
+    }
+}
+.contatore {
+    padding-top: 100px;
+    margin-bottom: 200px;
+}
+/* .linea-diversamnete-blu {
+    border-bottom: 1px solid #2B9DF4;
+    margin-bottom: 200px;
+} */
+.moon2 {
+    max-width: 700px;
+}
+p {
+    color: white;
+    font-size: 10px;
+    font-family: 'Jura', sans-serif;
+}
+.testoluna {
+    margin-bottom: 200px;
+}
+h3{
+    color: #2B9DF4;
+}
+h4 {
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+.titoli5 {
+    border-bottom: 1px solid #2B9DF4;
+}
+i {
+    color: #2B9DF4;
+}
+.centro-sole {
+    margin: 50px;
+}
+.testo5 {
+    margin-bottom: 200px;
+}
+.testorazzo {
+    margin-bottom: 450px;
+}
+@media (max-width: 990px) {
+    .testorazzo {
+        margin-bottom: 10px;
+    }
+}
+.pb-razzo {
+    margin-bottom: 200px;
+}
+.Linea-blu-prova {
+    height: 1px;
+    width: 20vw;
+    background-color: #2B9DF4;
+}
+.rettangolo-link {
+    border: 3px dashed #2B9DF4;
+    padding: 10px 40px 10px 40px;
+    margin: 30px;
+    text-decoration: none;
+}
+.earth {
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.500),rgb(0, 0, 0)),url(/media/sunrise-1765027_1920.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.icone-footer {
+    align-items: center;
+}
+@media (max-width: 990px) {
+    .icone-footer {
+        align-items: center;
+    }
+}
+.text-ingrandimento{
+    font-size: 15px;
+}
+.linea-footer {
+    height: 5px;
+    width: 100vw;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0), rgba(255, 255, 255, 0), rgb(0, 0, 0), rgb(0, 0, 0)), #2B9DF4;
+    margin: 50px 0 100px 0;
+}
